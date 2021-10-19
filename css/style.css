@@ -7,7 +7,7 @@
 html{
     font-size: 100%;
     font-family: 'Source Code Pro', monospace;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 .clearfix::beforer {
