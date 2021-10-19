@@ -4,19 +4,33 @@
     margin: 0%;
 }
 
+main {
+    position: relative;
+}
+
 .box-ol {
     height: 100vh;
     width: 100%;
 }
 
+.box-ol > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 #red {
     background-color: red;
+    position: relative;
 }
 
 #green {
     background-color: green;
+    position: relative;
 }
 
 #yellow {
     background-color: yellow;
+    position: relative;
 }
