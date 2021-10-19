@@ -64,6 +64,9 @@ main {
     color: yellow;
 }
 
+.box-ol:nth-last-child(1) {
+    color: green;
+} 
 
 .box-ol {
     height: 100vh;
